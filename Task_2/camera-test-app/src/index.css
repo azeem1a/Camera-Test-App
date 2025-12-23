@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Tell Tailwind where to look for class names. */
+@source "./**/*.{js,jsx,ts,tsx,html}";
+
+/* Keep the base look minimal and readable. */
+@layer base {
+  body {
+    @apply bg-slate-100 text-slate-900 antialiased;
+  }
+}
